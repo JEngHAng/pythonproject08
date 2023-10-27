@@ -11,3 +11,22 @@ my_list[2] = "IoT"
 print (my_list)
 my_set1 = set(my_list)
 print (my_set1)
+
+#set medthod
+my_set1.add (999)
+my_set1.add ("WOW")
+print (my_set1)
+my_set1.pop()
+my_set1.pop()
+print (my_set1)
+my_set2 = my_set1.copy()
+print (my_set2)
+my_set1.remove(999)
+print (my_set1)
+
+#Set Function
+print (len(my_set1))
+#min , max
+my_set3 = { 10 , 30 , 20 , 5 , 999}
+print (min(my_set3))
+print (max(my_set3))
