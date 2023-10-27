@@ -12,5 +12,13 @@ print (my_dict1["age"])
 print (my_dict1[555])
 my_dict1["age"] = 50
 print (my_dict1["age"])
+#print 20 ออกมา
+print (my_dict1["wow"][1])
+#print 222 ออกมา
+print (my_dict2["data4"]["y"])
+my_dict2["data5"] = 888
+print (my_dict2)
 
 #การเข้าถึงทุกข้อมูล
+for i in my_dict1 :
+    print (i)
