@@ -20,5 +20,18 @@ my_dict2["data5"] = 888
 print (my_dict2)
 
 #การเข้าถึงทุกข้อมูล
+print ("------------------------")
 for i in my_dict1 :
+    print (i)
+
+print ("------------------------")
+for i in my_dict1.keys() :
+    print (i)
+
+print ("------------------------")
+for i in my_dict1.values() :
+    print (i)
+
+print ("------------------------")
+for i in my_dict1.items() :
     print (i)
