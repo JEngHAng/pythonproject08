@@ -35,3 +35,17 @@ for i in my_dict1.values() :
 print ("------------------------")
 for i , y in my_dict1.items() :
     print (i , "-" , y)
+print ("------------------------")
+# Dictionary Method
+my_dict1.popitem()
+print (my_dict1)
+my_dict1.popitem()
+print (my_dict1)
+my_dict1.popitem()
+print (my_dict1)
+print ("------------------------")
+#my_dict2.pop("data2")
+#print (my_dict2)
+print ("------------------------")
+print (my_dict2["data3"])
+print (my_dict2.get("data3"))
