@@ -33,5 +33,5 @@ for i in my_dict1.values() :
     print (i)
 
 print ("------------------------")
-for i in my_dict1.items() :
-    print (i)
+for i , y in my_dict1.items() :
+    print (i , "-" , y)
