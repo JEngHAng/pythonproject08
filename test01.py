@@ -27,6 +27,6 @@ print (my_set1)
 #Set Function
 print (len(my_set1))
 #min , max
-my_set3 = { 10 , 30 , 20 , 5 , 999}
+my_set3 = { 10 , 30 , 20 , 5 , 999 }
 print (min(my_set3))
 print (max(my_set3))
